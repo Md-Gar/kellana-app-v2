@@ -1,0 +1,1 @@
+<img src="{{asset('images/kellana-logo.png')}}" style="height: 60px;" alt="logo">

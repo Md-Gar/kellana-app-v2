@@ -16,7 +16,7 @@
                             <p class="card-text text-center">Your one-stop solution for all your medical needs. At Kellana, we streamline the process of applying for medical services and tracking your application status with ease.</p>
 
                         </div>
-                        <div class="card-body">
+                       
                           
                             <div class="card-body">
                                 <div class="row row-cols-1 row-cols-md-2 g-3">
@@ -27,7 +27,7 @@
                                             <div class="card-body text-center">
                                                 <h5 class="card-title">Submit your application</h5>
                                                 <p class="card-text">Fill in the necessary details to apply for the service.</p>
-                                                <a href="#" class="btn btn-danger">Apply Now</a>
+                                                <a href="{{ route('apply')}}" class="btn btn-danger">Apply Now</a>
                                             </div>
                                         </div>
                                     </div>

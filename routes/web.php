@@ -23,4 +23,12 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
+Route::view('apply', 'apply.index')
+    ->middleware(['auth'])
+    ->name('apply');
+
+Route::get('/next-view/{variable}', [PatientController::class, 'passVariable'])
+    ->middleware(['auth'])
+    ->name('nextView');
+
 require __DIR__.'/auth.php';

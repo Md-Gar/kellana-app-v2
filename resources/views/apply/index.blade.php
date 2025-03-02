@@ -13,8 +13,7 @@
                     <div class="card-body d-flex flex-column">
                         <h3 class="card-title">{{$variable = "Kidney Dialysis"}}</h3>
                         <p class="card-text flex-grow-1">We provide access to dialysis treatment for patients with kidney failure, ensuring they receive regular and quality care.</p>
-                        <a href="{{ route('nextView', ['variable' => $variable]) }}" class="btn btn-danger mt-auto">Apply Now</a>
-                        
+                        <a href="#" class="btn btn-danger mt-auto">Apply Now</a>
                         
 
                     </div>
